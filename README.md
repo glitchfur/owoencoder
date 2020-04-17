@@ -78,7 +78,7 @@ Then you can open VLC, press **Ctrl+N** to open a Network Stream, and enter `tcp
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.txt).
 
 ## Bugs / Caveats
 

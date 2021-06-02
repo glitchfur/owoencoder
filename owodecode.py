@@ -15,9 +15,9 @@ def main():
     
     parser.add_argument("encoded_file", metavar="<encoded_file>", type=str, nargs="+")
     parser.add_argument('-k', dest="keep_original", action='store_true',
-                        help="Keep the input file. Do not delete it after doing encoding or decoding")
+                        help="Keep the input file. Do not delete it after doing decoding")
     parser.add_argument('-c', dest="to_stdout", action='store_true',
-                        help="Encode or decode to stdout instead of a file. This implies -k. This also makes piping output possible")
+                        help="Decode to stdout instead of a file. This implies -k. This also makes piping output possible")
 
     args = parser.parse_args()
 
